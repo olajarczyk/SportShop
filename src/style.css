@@ -1,0 +1,208 @@
+body{
+    background-color: black;
+    color: black;
+    font-family: Consolas;
+}
+ul {
+    list-style-type: none;
+    color: black;
+}
+.accordion-body {
+    background-color: black;
+    color: white;
+}
+
+html body {
+    background-color: black;
+
+}
+
+#myBtn {
+    border-radius: 8px;
+    float: right;
+    margin: 30px;
+    margin-top:20px;
+    background-color: black;
+    border-color: black;
+}
+
+h3 {
+    width: 150px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    background: gold;
+    color: black;
+    font-size: 38px;
+    margin: 10px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.basket-list li {
+    font-family: Consolas;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    background-color: gold;
+    border-radius: 8px;
+    border: 1px solid black;
+    max-height: 60px;
+
+}
+.basket-list  {
+    overflow:hidden;
+    overflow-y:scroll;
+    height:30vh; width:70vw;
+}
+
+
+li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:380px;
+    margin: 24px;
+    border-radius: 8px;
+    border-color: black;
+    padding: 16px;
+    font-family: 'Consolas', sans-serif;
+    background: white;
+}
+
+button {
+    background-color: gold;
+    padding: 10px;
+    border-radius: 25px;
+    width: 25vh;
+    border: 1px solid gold;
+    margin-left: 3vh;
+    margin-top: 10px;
+}
+
+img {
+    height: 300px;
+    max-width: 300px;
+    border-radius: 8px;
+    width: fit-content;
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: black; /* Fallback color */
+    background-color: black; /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: black;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: gold;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+strong {
+    text-transform: uppercase;
+    background: gold;
+    padding: 12px;
+    font-weight: 500;
+    margin: 12px 12px 24px;
+    border-radius: 8px;
+}
+.btn-buy-all{
+    width: 20vh;
+    color: black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 8px;
+}
+
+.btn-buy-product {
+    border-radius: 8px;
+    width: 20vw;
+}
+
+
+.admin-add-product {
+   margin-bottom: 5%;
+}
+
+input {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(246, 206, 8);
+    border-radius: 4px;
+}
+
+
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gold;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media screen and (min-width: 768px) {
+/*For Laptops*/
+.products-list {
+    width: 738px;
+    margin-left: 150px;
+}
+}
+
+@media screen and (min-width: 992px) {
+.products-list {
+    width: 962px;
+}
+}
+
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+}
